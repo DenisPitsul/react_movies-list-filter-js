@@ -12,7 +12,7 @@ export const App = () => {
 
     return (
       title.toLowerCase().includes(normalizedQuery) ||
-      description.toLocaleLowerCase().includes(normalizedQuery)
+      description.toLowerCase().includes(normalizedQuery)
     );
   });
 
